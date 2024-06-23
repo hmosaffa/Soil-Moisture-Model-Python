@@ -70,6 +70,5 @@ o	Outputs:
 	WW: Simulated soil moisture.
 	NS: Nash-Sutcliffe efficiency.
 	KGE: Kling-Gupta Efficiency.
-4.	plot_results(D, WW, WWobs, PIO, NS, NS_lnQ, NS_radQ, RQ, RMSE, KGE, namefig):
-o	Plots and saves the model results.
+5.	plot_results(D, WW, WWobs, PIO, NS, NS_lnQ, NS_radQ, RQ, RMSE, KGE, namefig): Plots and saves the model results.
 
