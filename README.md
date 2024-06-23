@@ -28,7 +28,7 @@ Brocca, L., Melone, F., Moramarco, T. (2008). On the estimation of antecedent we
 Brocca, L., Camici, S., Melone, F., Moramarco, T., Martinez-Fernandez, J., Didon-Lescot, J.-F., Morbidelli, R. (2014). Improving the representation of soil moisture by using a semi-analytical infiltration model. Hydrological Processes, 28(4), 2103-2115, doi:10.1002/hyp.9766. http://dx.doi.org/10.1002/hyp.9766
 
 ------
-python code: 
+# python code: 
 
 Requirements
 Ensure you have the following Python packages installed:
@@ -40,7 +40,7 @@ Ensure you have the following Python packages installed:
 You can install them using pip if not already installed:
 pip install numpy pandas matplotlib
 
-Running the Code
+# Running the Code
 1.	Place the files: Ensure SM_Model_IE.py, data.txt, Xopt.txt, and the folder where you want Figure.png to be saved are in the same directory.
 2.	Edit the paths: In SM_Model_IE.py, update the file paths for data.txt, Xopt.txt, and the output path for Figure.png to match your directory structure. For
 
@@ -53,7 +53,7 @@ namefig = 'path/to/figure.png'
 python SM_Model_IE.py
 4.	Output: After running the script, Figure.png will be generated in the specified directory. This file contains the graphical results of the soil moisture model.
 
-Code Overview
+# Code Overview
 Functions
 1.	matlab2PythonDates(dateMatlab):
 o	Converts MATLAB date numbers to Python datetime objects.
